@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<xliff version="1.1">
+<file datatype="php" original="src/Resources/contao/languages/de/default.php" source-language="en" target-language="de">
+<body>
+    <trans-unit id="ERR.iban">
+        <source>Please enter a valid IBAN.</source>
+        <target>Bitte geben Sie eine gültige IBAN ein.</target>
+    </trans-unit>
+    <trans-unit id="ERR.bic">
+        <source>Please enter a valid BIC.</source>
+        <target>Bitte geben Sie eine gültige BIC ein.</target>
+    </trans-unit>
+</body>
+</file>
+</xliff>

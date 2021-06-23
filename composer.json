@@ -1,0 +1,40 @@
+{
+    "name": "numero2/contao-validate-iban-bic",
+    "type": "contao-module",
+    "description": "Add rgxp to validate given IBAN or BIC. This is available for form fields.",
+    "keywords": ["contao", "iban", "bic", "rgxp", "validator"],
+    "license": "LGPL-3.0-or-later",
+    "authors": [{
+            "name": "numero2 - Agentur für digitales Marketing GbR",
+            "homepage": "https://www.numero2.de"
+        }
+    ],
+    "require": {
+        "contao/core-bundle": "^4.9.0",
+        "globalcitizen/php-iban": "^4.0"
+    },
+    "require-dev": {
+        "contao/manager-plugin": "^2.0"
+    },
+    "conflict": {
+        "contao/core": "*",
+        "contao/manager-plugin": "<2.0 || >=3.0"
+    },
+    "extra": {
+        "contao-manager-plugin": "numero2\\ValidateIbanBicBundle\\ContaoManager\\Plugin"
+    },
+    "autoload": {
+        "psr-4": {
+            "numero2\\ValidateIbanBicBundle\\": "src/"
+        },
+        "classmap": [
+            "src/Resources/contao/"
+        ],
+        "exclude-from-classmap": [
+            "src/Resources/contao/config/",
+            "src/Resources/contao/dca/",
+            "src/Resources/contao/languages/",
+            "src/Resources/contao/templates/"
+        ]
+    }
+}
