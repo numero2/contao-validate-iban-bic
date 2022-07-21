@@ -10,7 +10,7 @@
         }
     ],
     "require": {
-        "contao/core-bundle": "^4.9.0",
+        "contao/core-bundle": "^4.9 || ^5.0",
         "globalcitizen/php-iban": "^4.0"
     },
     "require-dev": {

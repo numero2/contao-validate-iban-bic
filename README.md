@@ -10,7 +10,7 @@ Add rgxp to validate given IBAN or BIC. This is available for form fields.
 System requirements
 --
 
-* [Contao](https://github.com/contao/contao) 4.9 or newer
+* [Contao 4.9 or newer](https://github.com/contao/contao)
 
 
 Installation & Configuration
